@@ -68,3 +68,18 @@ public class DataCollector {
 				map.put("Name",values[12]);
 				map.put("PERatio2",values[13]);
 				map.put("symbol",values[14]);
+				map.put("priceBook",values[15]);
+				map.put("StockExchange", values[16]);
+				map.put("52weekhigh",values[17]); // 52 week high
+				map.put("PriceSales",values[18]); // add this to database
+			}
+		} catch (Exception ex) {
+			System.out.println(ex.getMessage());
+			ex.printStackTrace();
+		}
+		return map;
+	}
+	
+	public String Classify(){
+		
+		String prediction = "";
