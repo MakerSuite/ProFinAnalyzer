@@ -23,3 +23,24 @@ import weka.core.Instances;
 public class DataCollector {
 	Map<String, String> map;
 	InputMappedClassifier classifier = new InputMappedClassifier();
+
+	public DataCollector() {
+		map = new HashMap<String, String>();
+		try{
+		classifier.setModelPath("Models/RandomForestsTechAnalysis.model");
+		classifier.setTrim(true);
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+	}
+
+	public Map<String, String> getData(String ticker) {
+		try {
+			URL url = new URL("http://finance.yahoo.com/d/quotes.csv?s="
+					+ ticker + "&f=b4c1jj1j5k2r2yaba2enrsp6xkp5");
+			Scanner s = new Scanner(url.openStream());
+
+			while (s.hasNextLine()) {
+				String line = s.nextLine();
+				String[] values = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+				map.put("BookValue", values[0]);
