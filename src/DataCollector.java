@@ -44,3 +44,13 @@ public class DataCollector {
 				String line = s.nextLine();
 				String[] values = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
 				map.put("BookValue", values[0]);
+				map.put("PriceChangeRT",values[1]);
+				map.put("52weekLow",values[2]); // 52 week low
+				double val = 0;
+				if(!values[3].equals("N/A")){
+				String letter = values[3].substring(values[3].length()-1);
+				String value = values[3].substring(0,values[3].length()-1);
+				val = Float.parseFloat(value);
+				if(letter.equals("B"))
+				{
+					val = val*1000;
