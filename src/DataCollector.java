@@ -54,3 +54,17 @@ public class DataCollector {
 				if(letter.equals("B"))
 				{
 					val = val*1000;
+				}
+				}
+				map.put("MarketCap",val+"");
+				map.put("ChangeFromYearLow",values[4]);
+				map.put("PriceChangePercent",values[5]);
+				map.put("PERatioRT",values[6]);
+				map.put("DividendYield",values[7]);
+				map.put("Ask", values[8]);
+				map.put("Bid",values[9]);
+				map.put("AverageDayVolume",values[10]);
+				map.put("EarningsPerShare" ,values[11]);
+				map.put("Name",values[12]);
+				map.put("PERatio2",values[13]);
+				map.put("symbol",values[14]);
