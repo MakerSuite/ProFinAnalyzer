@@ -106,3 +106,19 @@ public class DataCollector {
 
 		fvWekaAttributes.addElement(BookValue);
 		fvWekaAttributes.addElement(MarketCap);
+		fvWekaAttributes.addElement(DividendYield);
+		fvWekaAttributes.addElement(EarningsPerShare);
+		fvWekaAttributes.addElement(PERatio);
+		fvWekaAttributes.addElement(priceBook);
+		fvWekaAttributes.addElement(PriceSales);
+		fvWekaAttributes.addElement(historyPrice);
+		fvWekaAttributes.addElement(ClassAttribute);
+		Instances Instances = new Instances("Rel", fvWekaAttributes, 0);
+
+		Instance iExample = new DenseInstance(9);
+		Attribute attribute = (Attribute) fvWekaAttributes.elementAt(0);
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(0), map.get("BookValue").equals("N/A")?-9999:Float.parseFloat(map.get("BookValue")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(1),
+				map.get("MarketCap").equals("N/A")?-9999:Float.parseFloat(map.get("MarketCap")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(2),
+				map.get("DividendYield").equals("N/A")?-9999:Float.parseFloat(map.get("DividendYield")));
