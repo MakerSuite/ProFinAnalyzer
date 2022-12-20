@@ -122,3 +122,27 @@ public class DataCollector {
 				map.get("MarketCap").equals("N/A")?-9999:Float.parseFloat(map.get("MarketCap")));
 		iExample.setValue((Attribute) fvWekaAttributes.elementAt(2),
 				map.get("DividendYield").equals("N/A")?-9999:Float.parseFloat(map.get("DividendYield")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(3),
+				map.get("EarningsPerShare").equals("N/A")?-9999:Float.parseFloat(map.get("EarningsPerShare")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(4),
+				map.get("PERatio2").equals("N/A")?-9999:Float.parseFloat(map.get("PERatio2")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(5),
+				map.get("priceBook").equals("N/A")?-9999:Float.parseFloat(map.get("priceBook")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(6),
+				map.get("PriceSales").equals("N/A")?-9999:Float.parseFloat(map.get("PriceSales")));
+		iExample.setValue((Attribute) fvWekaAttributes.elementAt(7),
+				map.get("Ask").equals("N/A")?-9999:Float.parseFloat(map.get("Ask")));
+		Instances.add(iExample);
+		Instances.setClassIndex(8);
+		Instance inst = Instances.firstInstance();
+
+		double result = classifier.classifyInstance(Instances
+				.firstInstance());
+		Instances.firstInstance().setClassValue(result);
+		prediction = Instances.firstInstance().classAttribute()
+				.value((int) result);
+		}catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+		return  prediction;
