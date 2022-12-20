@@ -83,3 +83,26 @@ public class DataCollector {
 	public String Classify(){
 		
 		String prediction = "";
+		try{
+		Instances ins = null;		
+		Attribute BookValue = new Attribute("book_value");
+		Attribute MarketCap = new Attribute("market_cap");
+		Attribute DividendYield = new Attribute("DIVIDEND_YIELD");
+		Attribute EarningsPerShare = new Attribute("BEST_EPS");
+		Attribute PERatio = new Attribute("PE_Ratio");
+		Attribute priceBook = new Attribute(
+				"PX_TO_BOOK_RATIO");
+		Attribute PriceSales = new Attribute("PX_TO_SALES_RATIO");
+		Attribute historyPrice = new Attribute(
+				"history_price");
+		
+		FastVector fvClassVal = new FastVector(2);
+		// AdverseEvent,InclusionExclusion,DontCare,BaselineCharacteristic
+		fvClassVal.addElement("Good");
+		fvClassVal.addElement("Bad");
+		Attribute ClassAttribute = new Attribute("label", fvClassVal);
+		// Declare the feature vector
+		FastVector fvWekaAttributes = new FastVector(9);
+
+		fvWekaAttributes.addElement(BookValue);
+		fvWekaAttributes.addElement(MarketCap);
