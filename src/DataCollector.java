@@ -165,3 +165,17 @@ public class DataCollector {
 	    InputSource is = new InputSource(new StringReader(xml));
 	    Document doc = builder.parse(is);
 		NodeList items = doc.getElementsByTagName("item");
+		for(int i=0;i<items.getLength();i++)
+		{
+			NodeList children = items.item(i).getChildNodes();
+			NewsItem item = new NewsItem();
+			for(int j = 0;j<children.getLength();j++)
+			{
+				switch(j){
+				case 9:
+					item.Title = children.item(j).getTextContent();
+					break;
+				case 5:
+					item.URL =  children.item(j).getTextContent();
+					break;
+				case 1://description
