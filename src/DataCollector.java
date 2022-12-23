@@ -146,3 +146,22 @@ public class DataCollector {
 			ex.printStackTrace();
 		}
 		return  prediction;
+	}
+	
+	public LinkedList<NewsItem> obtainNews(String ticker){
+		
+		LinkedList<NewsItem> newslist = new LinkedList<NewsItem>();
+		try{
+		String urlString = "https://feeds.finance.yahoo.com/rss/2.0/headline?lang=en-US&s="+ticker;
+		URL url = new URL(urlString);
+		Scanner s = new Scanner(url.openStream());
+		String xml = "";
+		while(s.hasNextLine()){
+			xml+=s.nextLine();
+		}
+		
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+	    DocumentBuilder builder = factory.newDocumentBuilder();
+	    InputSource is = new InputSource(new StringReader(xml));
+	    Document doc = builder.parse(is);
+		NodeList items = doc.getElementsByTagName("item");
