@@ -179,3 +179,23 @@ public class DataCollector {
 					item.URL =  children.item(j).getTextContent();
 					break;
 				case 1://description
+					item.Description = children.item(j).getTextContent();
+					break;
+				case 3://guid
+					break;
+				case 7:
+					item.DatePublished =  children.item(j).getTextContent();
+					break;
+				}
+			}
+			newslist.add(item);
+		}
+		
+		
+		}catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+		
+		return newslist;
+	}
