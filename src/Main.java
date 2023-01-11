@@ -6,4 +6,4 @@ import java.awt.event.KeyEvent;
 
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
-import javax.swing.JCheckB
+import javax.swing.JCheckBoxMenuIte
