@@ -12,4 +12,5 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JRadioButtonMenuItem;
-import javax.swing.JScrol
+import javax.swing.JScrollPane;
+import ja
