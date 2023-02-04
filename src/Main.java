@@ -17,4 +17,6 @@ import javax.swing.JTable;
 import javax.swing.KeyStroke;
 
 
-public
+public class Main {
+
+	pub
