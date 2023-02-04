@@ -19,4 +19,4 @@ import javax.swing.KeyStroke;
 
 public class Main {
 
-	pub
+	public stat
