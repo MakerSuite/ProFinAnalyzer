@@ -19,4 +19,4 @@ import javax.swing.KeyStroke;
 
 public class Main {
 
-	public stat
+	public static void mai
