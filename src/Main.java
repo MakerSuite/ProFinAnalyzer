@@ -19,4 +19,5 @@ import javax.swing.KeyStroke;
 
 public class Main {
 
-	public static void main(String[]
+	public static void main(String[] args) {
+		// TO
