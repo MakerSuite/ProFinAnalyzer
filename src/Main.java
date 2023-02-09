@@ -23,4 +23,5 @@ public class Main {
 		// TODO Auto-generated method stub
 		JMenuBar menuBar;
 		JMenu menu, submenu;
-		J
+		JMenuItem menuItem;
+	
