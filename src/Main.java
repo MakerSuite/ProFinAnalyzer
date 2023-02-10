@@ -25,4 +25,4 @@ public class Main {
 		JMenu menu, submenu;
 		JMenuItem menuItem;
 		JRadioButtonMenuItem rbMenuItem;
-		JChec
+		JCheckBoxMenuItem cb
