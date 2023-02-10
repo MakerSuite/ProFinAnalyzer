@@ -24,4 +24,4 @@ public class Main {
 		JMenuBar menuBar;
 		JMenu menu, submenu;
 		JMenuItem menuItem;
-		JRadioButtonMe
+		JRadioButtonMenuItem rbMen
