@@ -27,4 +27,5 @@ public class Main {
 		JRadioButtonMenuItem rbMenuItem;
 		JCheckBoxMenuItem cbMenuItem;
 
-		//Create the 
+		//Create the menu bar.
+		menuB
