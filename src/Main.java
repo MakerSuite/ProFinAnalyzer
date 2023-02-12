@@ -28,4 +28,4 @@ public class Main {
 		JCheckBoxMenuItem cbMenuItem;
 
 		//Create the menu bar.
-		menuB
+		menuBar = new JMenuBar();
