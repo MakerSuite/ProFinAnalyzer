@@ -30,4 +30,5 @@ public class Main {
 		//Create the menu bar.
 		menuBar = new JMenuBar();
 
-		//Build the fir
+		//Build the first menu.
+		menu 
