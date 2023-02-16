@@ -32,4 +32,4 @@ public class Main {
 
 		//Build the first menu.
 		menu = new JMenu("A Menu");
-		m
+		menu.setMnemoni
