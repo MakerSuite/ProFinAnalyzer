@@ -32,4 +32,5 @@ public class Main {
 
 		//Build the first menu.
 		menu = new JMenu("A Menu");
-		menu.setMnemonic(KeyEvent.VK
+		menu.setMnemonic(KeyEvent.VK_A);
+		menu.getA
