@@ -33,4 +33,5 @@ public class Main {
 		//Build the first menu.
 		menu = new JMenu("A Menu");
 		menu.setMnemonic(KeyEvent.VK_A);
-		menu.getAccessibleContext().setAccessibleDe
+		menu.getAccessibleContext().setAccessibleDescription(
+		    
