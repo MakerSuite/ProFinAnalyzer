@@ -34,4 +34,4 @@ public class Main {
 		menu = new JMenu("A Menu");
 		menu.setMnemonic(KeyEvent.VK_A);
 		menu.getAccessibleContext().setAccessibleDescription(
-		        "The only 
+		        "The only menu in this program
