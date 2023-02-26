@@ -37,4 +37,5 @@ public class Main {
 		        "The only menu in this program that has menu items");
 		menuBar.add(menu);
 
-		//a group 
+		//a group of JMenuItems
+		men
