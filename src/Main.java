@@ -35,4 +35,6 @@ public class Main {
 		menu.setMnemonic(KeyEvent.VK_A);
 		menu.getAccessibleContext().setAccessibleDescription(
 		        "The only menu in this program that has menu items");
-		menuB
+		menuBar.add(menu);
+
+		//a group 
