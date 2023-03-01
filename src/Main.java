@@ -38,4 +38,4 @@ public class Main {
 		menuBar.add(menu);
 
 		//a group of JMenuItems
-		menuItem = new JMenuItem("A text
+		menuItem = new JMenuItem("A text-only menu ite
