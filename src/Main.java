@@ -40,4 +40,4 @@ public class Main {
 		//a group of JMenuItems
 		menuItem = new JMenuItem("A text-only menu item",
 		                         KeyEvent.VK_T);
-		
+		menuItem.setAccelerator(Key
