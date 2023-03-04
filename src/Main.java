@@ -39,4 +39,5 @@ public class Main {
 
 		//a group of JMenuItems
 		menuItem = new JMenuItem("A text-only menu item",
-		                         Key
+		                         KeyEvent.VK_T);
+		
