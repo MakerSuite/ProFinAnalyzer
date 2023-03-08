@@ -41,4 +41,4 @@ public class Main {
 		menuItem = new JMenuItem("A text-only menu item",
 		                         KeyEvent.VK_T);
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(
-		        KeyEvent.VK_1,
+		        KeyEvent.VK_1, ActionEvent.AL
