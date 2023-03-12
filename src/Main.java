@@ -42,4 +42,5 @@ public class Main {
 		                         KeyEvent.VK_T);
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(
 		        KeyEvent.VK_1, ActionEvent.ALT_MASK));
-		menuItem.getAccessibleContext().setAccessibleDescri
+		menuItem.getAccessibleContext().setAccessibleDescription(
+		        "Th
