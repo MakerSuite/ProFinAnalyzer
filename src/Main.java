@@ -43,4 +43,4 @@ public class Main {
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(
 		        KeyEvent.VK_1, ActionEvent.ALT_MASK));
 		menuItem.getAccessibleContext().setAccessibleDescription(
-		        "Th
+		        "This doesn't rea
