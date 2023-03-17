@@ -44,4 +44,6 @@ public class Main {
 		        KeyEvent.VK_1, ActionEvent.ALT_MASK));
 		menuItem.getAccessibleContext().setAccessibleDescription(
 		        "This doesn't really do anything");
-		menu.add(
+		menu.add(menuItem);
+
+		menu
