@@ -46,4 +46,4 @@ public class Main {
 		        "This doesn't really do anything");
 		menu.add(menuItem);
 
-		menu
+		menuItem = new JMen
