@@ -46,4 +46,5 @@ public class Main {
 		        "This doesn't really do anything");
 		menu.add(menuItem);
 
-		menuItem = new JMenuItem("Both text and ico
+		menuItem = new JMenuItem("Both text and icon",
+		             
