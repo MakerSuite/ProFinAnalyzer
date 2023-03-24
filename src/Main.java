@@ -47,4 +47,4 @@ public class Main {
 		menu.add(menuItem);
 
 		menuItem = new JMenuItem("Both text and icon",
-		             
+		                         new
