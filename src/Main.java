@@ -48,4 +48,4 @@ public class Main {
 
 		menuItem = new JMenuItem("Both text and icon",
 		                         new ImageIcon("images/middle.gif"));
-		menuIt
+		menuItem.setMnemonic(Ke
