@@ -51,4 +51,4 @@ public class Main {
 		menuItem.setMnemonic(KeyEvent.VK_B);
 		menu.add(menuItem);
 
-		menuItem 
+		menuItem = new JMenuItem(new 
