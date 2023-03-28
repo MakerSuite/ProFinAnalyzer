@@ -51,4 +51,4 @@ public class Main {
 		menuItem.setMnemonic(KeyEvent.VK_B);
 		menu.add(menuItem);
 
-		menuItem = new JMenuItem(new ImageIcon("ima
+		menuItem = new JMenuItem(new ImageIcon("images/middle.gif"))
