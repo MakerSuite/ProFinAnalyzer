@@ -52,4 +52,4 @@ public class Main {
 		menu.add(menuItem);
 
 		menuItem = new JMenuItem(new ImageIcon("images/middle.gif"));
-		menuItem.se
+		menuItem.setMnemonic(KeyEvent
