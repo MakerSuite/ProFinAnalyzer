@@ -55,4 +55,5 @@ public class Main {
 		menuItem.setMnemonic(KeyEvent.VK_D);
 		menu.add(menuItem);
 
-		//a group of radio button menu i
+		//a group of radio button menu items
+		menu.add
