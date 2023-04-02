@@ -56,4 +56,5 @@ public class Main {
 		menu.add(menuItem);
 
 		//a group of radio button menu items
-		menu.add
+		menu.addSeparator();
+		But
