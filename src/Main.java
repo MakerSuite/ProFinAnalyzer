@@ -58,4 +58,4 @@ public class Main {
 		//a group of radio button menu items
 		menu.addSeparator();
 		ButtonGroup group = new ButtonGroup();
-		rbMenuItem = new JRadioButtonMen
+		rbMenuItem = new JRadioButtonMenuItem("A radio 
