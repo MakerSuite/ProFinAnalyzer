@@ -60,4 +60,5 @@ public class Main {
 		ButtonGroup group = new ButtonGroup();
 		rbMenuItem = new JRadioButtonMenuItem("A radio button menu item");
 		rbMenuItem.setSelected(true);
-		rbMenuItem.setMnemonic(KeyEvent.VK
+		rbMenuItem.setMnemonic(KeyEvent.VK_R);
+		group.add(rb
