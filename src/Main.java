@@ -62,4 +62,6 @@ public class Main {
 		rbMenuItem.setSelected(true);
 		rbMenuItem.setMnemonic(KeyEvent.VK_R);
 		group.add(rbMenuItem);
-		menu.add(rbMenuItem
+		menu.add(rbMenuItem);
+
+		rbMenuIt
