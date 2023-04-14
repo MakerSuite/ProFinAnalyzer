@@ -64,4 +64,4 @@ public class Main {
 		group.add(rbMenuItem);
 		menu.add(rbMenuItem);
 
-		rbMenuIt
+		rbMenuItem = new JRa
