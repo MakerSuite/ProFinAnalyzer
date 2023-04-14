@@ -64,4 +64,4 @@ public class Main {
 		group.add(rbMenuItem);
 		menu.add(rbMenuItem);
 
-		rbMenuItem = new JRa
+		rbMenuItem = new JRadioButtonMenuItem(
