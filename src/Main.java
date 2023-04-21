@@ -67,4 +67,6 @@ public class Main {
 		rbMenuItem = new JRadioButtonMenuItem("Another one");
 		rbMenuItem.setMnemonic(KeyEvent.VK_O);
 		group.add(rbMenuItem);
-		menu.add(rbMen
+		menu.add(rbMenuItem);
+
+		//a gr
