@@ -69,4 +69,4 @@ public class Main {
 		group.add(rbMenuItem);
 		menu.add(rbMenuItem);
 
-		//a gr
+		//a group of check box m
