@@ -70,4 +70,5 @@ public class Main {
 		menu.add(rbMenuItem);
 
 		//a group of check box menu items
-		menu.addSe
+		menu.addSeparator();
+		
