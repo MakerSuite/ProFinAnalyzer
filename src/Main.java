@@ -73,4 +73,6 @@ public class Main {
 		menu.addSeparator();
 		cbMenuItem = new JCheckBoxMenuItem("A check box menu item");
 		cbMenuItem.setMnemonic(KeyEvent.VK_C);
-		menu.add(cbMenuI
+		menu.add(cbMenuItem);
+
+		cbMenu
