@@ -71,4 +71,5 @@ public class Main {
 
 		//a group of check box menu items
 		menu.addSeparator();
-		cbMenuItem = new JCheckBoxMenuItem("A check box menu item
+		cbMenuItem = new JCheckBoxMenuItem("A check box menu item");
+		cbMenuItem.s
