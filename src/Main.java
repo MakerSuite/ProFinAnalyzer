@@ -76,4 +76,4 @@ public class Main {
 		menu.add(cbMenuItem);
 
 		cbMenuItem = new JCheckBoxMenuItem("Another one");
-		cbMenuItem.s
+		cbMenuItem.setMnemonic(KeyEvent.
