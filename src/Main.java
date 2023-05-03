@@ -79,4 +79,5 @@ public class Main {
 		cbMenuItem.setMnemonic(KeyEvent.VK_H);
 		menu.add(cbMenuItem);
 
-		/
+		//a submenu
+		
