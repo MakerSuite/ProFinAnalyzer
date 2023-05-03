@@ -80,4 +80,5 @@ public class Main {
 		menu.add(cbMenuItem);
 
 		//a submenu
-		menu.addSepa
+		menu.addSeparator();
+		su
