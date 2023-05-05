@@ -81,4 +81,5 @@ public class Main {
 
 		//a submenu
 		menu.addSeparator();
-		submenu = new JMenu("
+		submenu = new JMenu("A submenu");
+		su
