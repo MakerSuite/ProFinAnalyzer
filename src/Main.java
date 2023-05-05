@@ -81,4 +81,4 @@ public class Main {
 
 		//a submenu
 		menu.addSeparator();
-		su
+		submenu = new JMenu("
