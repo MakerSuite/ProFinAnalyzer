@@ -82,4 +82,4 @@ public class Main {
 		//a submenu
 		menu.addSeparator();
 		submenu = new JMenu("A submenu");
-		submenu.setMnemonic(
+		submenu.setMnemonic(KeyEvent.VK_S);
