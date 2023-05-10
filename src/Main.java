@@ -84,4 +84,4 @@ public class Main {
 		submenu = new JMenu("A submenu");
 		submenu.setMnemonic(KeyEvent.VK_S);
 
-		menuItem = new JMenuItem("An ite
+		menuItem = new JMenuItem("An item in the submenu")
