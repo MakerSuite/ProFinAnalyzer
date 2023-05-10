@@ -83,3 +83,5 @@ public class Main {
 		menu.addSeparator();
 		submenu = new JMenu("A submenu");
 		submenu.setMnemonic(KeyEvent.VK_S);
+
+		menuItem = n
