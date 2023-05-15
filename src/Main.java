@@ -85,4 +85,5 @@ public class Main {
 		submenu.setMnemonic(KeyEvent.VK_S);
 
 		menuItem = new JMenuItem("An item in the submenu");
-		menuItem.setAccelerator(KeyStroke.getKeyS
+		menuItem.setAccelerator(KeyStroke.getKeyStroke(
+		      
