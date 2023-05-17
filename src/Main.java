@@ -87,4 +87,4 @@ public class Main {
 		menuItem = new JMenuItem("An item in the submenu");
 		menuItem.setAccelerator(KeyStroke.getKeyStroke(
 		        KeyEvent.VK_2, ActionEvent.ALT_MASK));
-		subm
+		submenu.add(menuIte
