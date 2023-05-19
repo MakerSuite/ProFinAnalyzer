@@ -89,4 +89,4 @@ public class Main {
 		        KeyEvent.VK_2, ActionEvent.ALT_MASK));
 		submenu.add(menuItem);
 
-		menuItem = new JMenuIt
+		menuItem = new JMenuItem("Another it
