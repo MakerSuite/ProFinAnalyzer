@@ -90,4 +90,4 @@ public class Main {
 		submenu.add(menuItem);
 
 		menuItem = new JMenuItem("Another item");
-		subme
+		submenu.add(menuItem)
