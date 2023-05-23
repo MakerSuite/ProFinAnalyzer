@@ -93,4 +93,4 @@ public class Main {
 		submenu.add(menuItem);
 		menu.add(submenu);
 
-		//Build seco
+		//Build second menu in the men
