@@ -91,4 +91,6 @@ public class Main {
 
 		menuItem = new JMenuItem("Another item");
 		submenu.add(menuItem);
-		menu.add(subme
+		menu.add(submenu);
+
+		//Build seco
