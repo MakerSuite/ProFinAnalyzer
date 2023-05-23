@@ -93,4 +93,5 @@ public class Main {
 		submenu.add(menuItem);
 		menu.add(submenu);
 
-		//Build second menu in the men
+		//Build second menu in the menu bar.
+		menu = ne
