@@ -94,4 +94,4 @@ public class Main {
 		menu.add(submenu);
 
 		//Build second menu in the menu bar.
-		menu = ne
+		menu = new JMenu("Another
