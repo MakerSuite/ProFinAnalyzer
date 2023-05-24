@@ -94,4 +94,5 @@ public class Main {
 		menu.add(submenu);
 
 		//Build second menu in the menu bar.
-		menu = new JMenu("Another
+		menu = new JMenu("Another Menu");
+		menu.setMn
