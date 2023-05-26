@@ -96,4 +96,4 @@ public class Main {
 		//Build second menu in the menu bar.
 		menu = new JMenu("Another Menu");
 		menu.setMnemonic(KeyEvent.VK_N);
-		menu.getAc
+		menu.getAccessibleContext().setAcc
