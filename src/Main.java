@@ -97,4 +97,4 @@ public class Main {
 		menu = new JMenu("Another Menu");
 		menu.setMnemonic(KeyEvent.VK_N);
 		menu.getAccessibleContext().setAccessibleDescription(
-		        "This me
+		        "This menu does nothing");
