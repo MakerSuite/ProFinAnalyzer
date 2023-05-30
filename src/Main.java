@@ -98,4 +98,6 @@ public class Main {
 		menu.setMnemonic(KeyEvent.VK_N);
 		menu.getAccessibleContext().setAccessibleDescription(
 		        "This menu does nothing");
-		menuBar.add(menu)
+		menuBar.add(menu);
+		
+		MainFrame mf 
