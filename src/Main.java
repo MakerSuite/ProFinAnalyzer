@@ -100,4 +100,5 @@ public class Main {
 		        "This menu does nothing");
 		menuBar.add(menu);
 		
-		MainFrame mf = new MainFr
+		MainFrame mf = new MainFrame();
+		mf.setName("I
