@@ -101,4 +101,4 @@ public class Main {
 		menuBar.add(menu);
 		
 		MainFrame mf = new MainFrame();
-		mf.setName("I
+		mf.setName("Inspiratron's FinAn
