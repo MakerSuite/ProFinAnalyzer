@@ -102,4 +102,4 @@ public class Main {
 		
 		MainFrame mf = new MainFrame();
 		mf.setName("Inspiratron's FinAnalyzer");
-		mf.setTitle("Inspiratron's
+		mf.setTitle("Inspiratron's FinAnalyzer");
