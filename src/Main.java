@@ -101,4 +101,5 @@ public class Main {
 		menuBar.add(menu);
 		
 		MainFrame mf = new MainFrame();
-		mf.setName("Inspiratron's FinAn
+		mf.setName("Inspiratron's FinAnalyzer");
+		mf.setTi
