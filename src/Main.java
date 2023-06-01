@@ -103,4 +103,4 @@ public class Main {
 		MainFrame mf = new MainFrame();
 		mf.setName("Inspiratron's FinAnalyzer");
 		mf.setTitle("Inspiratron's FinAnalyzer");
-		mf.setBounds(
+		mf.setBounds(100, 100, 79
