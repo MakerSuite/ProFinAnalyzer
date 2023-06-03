@@ -104,4 +104,5 @@ public class Main {
 		mf.setName("Inspiratron's FinAnalyzer");
 		mf.setTitle("Inspiratron's FinAnalyzer");
 		mf.setBounds(100, 100, 790, 500);
-		//mf.setJMenuBar
+		//mf.setJMenuBar(menuBar);
+		mf.set
