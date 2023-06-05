@@ -25,3 +25,19 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.ListSelectionModel;
+import javax.swing.SpringLayout;
+import javax.swing.table.DefaultTableModel;
+
+
+public class MainFrame extends JFrame {
+	 JTextField textField;
+	 JTable table1;
+	 JTable table;
+	 JLabel analysis;
+	   public MainFrame() {
+		      // Get the content-pane of this JFrame, which is a java.awt.Container
+		      // All operations, such as setLayout() and add() operate on the content-pane 
+		      Container cp = this.getContentPane(); 
+		      FlowLayout layout = new FlowLayout();
+		      cp.setLayout(layout);
