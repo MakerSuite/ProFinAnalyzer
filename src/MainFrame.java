@@ -41,3 +41,18 @@ public class MainFrame extends JFrame {
 		      Container cp = this.getContentPane(); 
 		      FlowLayout layout = new FlowLayout();
 		      cp.setLayout(layout);
+		      JLabel label = new JLabel("Stock symbol to check:");
+		      cp.add(label);
+		      textField = new JTextField(10);
+		      textField.setSize(500, 20);
+		      textField.setMinimumSize(new Dimension(50, 20));
+		      textField.setToolTipText("Ticker symbol (i.e. AAPL)");
+		      cp.add(textField);
+		      JButton  CheckButton= new JButton("Check");
+
+				//Creates a table
+				
+				String[] columnNames = {"Indicator",
+		                "Value"};
+
+				String[] columnNames1 = {"Article title",
