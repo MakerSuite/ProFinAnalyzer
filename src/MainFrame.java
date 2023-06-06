@@ -56,3 +56,18 @@ public class MainFrame extends JFrame {
 		                "Value"};
 
 				String[] columnNames1 = {"Article title",
+		        "Date published","URL"};
+				
+				table = new JTable();
+				DefaultTableModel contactTableModel = (DefaultTableModel) table
+				            .getModel();
+				contactTableModel = new DefaultTableModel() {
+				    @Override
+				    public boolean isCellEditable(int row, int column) {
+				        return false;
+				    }
+				};
+				table.setModel(contactTableModel);
+				contactTableModel.setColumnIdentifiers(columnNames);
+			    table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+				JScrollPane scrollPane = new JScrollPane(table);
