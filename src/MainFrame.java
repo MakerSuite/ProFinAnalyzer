@@ -71,3 +71,15 @@ public class MainFrame extends JFrame {
 				contactTableModel.setColumnIdentifiers(columnNames);
 			    table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 				JScrollPane scrollPane = new JScrollPane(table);
+				table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+				table.getColumnModel().getColumn(0).setPreferredWidth(160);
+				table.getColumnModel().getColumn(1).setPreferredWidth(90);
+				//table.setFillsViewportHeight(true);
+				table1 = new JTable();
+				
+				DefaultTableModel contactTableModel1 = (DefaultTableModel) table1
+			            .getModel();
+				contactTableModel1 = new DefaultTableModel() {
+				    @Override
+				    public boolean isCellEditable(int row, int column) {
+				        return false;
