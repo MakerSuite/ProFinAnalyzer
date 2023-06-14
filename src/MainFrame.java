@@ -83,3 +83,26 @@ public class MainFrame extends JFrame {
 				    @Override
 				    public boolean isCellEditable(int row, int column) {
 				        return false;
+				    }
+				};
+				table1.setModel(contactTableModel1);
+				contactTableModel1.setColumnIdentifiers(columnNames1);
+				//table1.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+				table1.setPreferredSize(new Dimension(520,400));
+				table1.getColumnModel().getColumn(0).setPreferredWidth(400);
+				table1.getColumnModel().getColumn(1).setPreferredWidth(120);
+				table1.addMouseListener(new MouseAdapter() {
+				    public void mousePressed(MouseEvent me) {
+				        JTable table =(JTable) me.getSource();
+				        Point p = me.getPoint();
+				        int row = table.rowAtPoint(p);
+				        if (me.getClickCount() == 2) {
+				        	Object selectedObject = (Object) table1.getModel().getValueAt(row, 2);
+				        	try{
+				        	URL url = new URL(selectedObject.toString());
+				        	 openWebpage(url.toURI());
+				        	}catch(Exception ex)
+				        	{
+				        		ex.printStackTrace();
+				        	}
+				            // your valueChanged overridden method 
