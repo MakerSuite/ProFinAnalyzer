@@ -106,3 +106,25 @@ public class MainFrame extends JFrame {
 				        		ex.printStackTrace();
 				        	}
 				            // your valueChanged overridden method 
+				        }
+				    }
+				});
+				
+				JScrollPane scrollPane1 = new JScrollPane(table1);
+				JPanel panel = new JPanel();
+				panel.setLayout(new FlowLayout());
+				scrollPane.setPreferredSize(new Dimension(250, 300));
+				scrollPane1.setPreferredSize(new Dimension(520, 300));
+				panel.add(scrollPane);
+				panel.add(scrollPane1);
+				cp.add(CheckButton);
+				cp.add(panel);
+		      CheckButton.addActionListener(new ActionListener() {
+		          public void actionPerformed(ActionEvent ae){
+		              String ticker = textField.getText();
+		              DataCollector dc = new DataCollector();
+		              Map <String, String> data = dc.getData(ticker);
+		              DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
+		              tableModel.setRowCount(0);
+		              String[] dataA = new String[2];
+		              dataA[0] = "Name";
