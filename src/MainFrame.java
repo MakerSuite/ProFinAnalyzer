@@ -128,3 +128,17 @@ public class MainFrame extends JFrame {
 		              tableModel.setRowCount(0);
 		              String[] dataA = new String[2];
 		              dataA[0] = "Name";
+		              dataA[1] = data.get("Name").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "Symbol";
+		              dataA[1] = data.get("symbol").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "Stock Exchange";
+		              dataA[1] = data.get("StockExchange").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "Market Capitalization (Millions)";
+		              dataA[1] = data.get("MarketCap").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "Ask";
+		              dataA[1] = data.get("Ask").replace("\"", "");
+		              tableModel.addRow(dataA);
