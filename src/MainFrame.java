@@ -174,3 +174,15 @@ public class MainFrame extends JFrame {
 		              tableModel.addRow(dataA);
 		              dataA[0] = "Price Change Percent";
 		              dataA[1] = data.get("PriceChangePercent").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "52 week low";
+		              dataA[1] = data.get("52weekLow").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "52 week high";
+		              dataA[1] = data.get("52weekhigh").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              dataA[0] = "Change From 52 week low";
+		              dataA[1] = data.get("ChangeFromYearLow").replace("\"", "");
+		              tableModel.addRow(dataA);
+		              tableModel.fireTableDataChanged();
+		              String prediction = dc.Classify();
