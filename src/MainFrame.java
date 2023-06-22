@@ -203,3 +203,14 @@ public class MainFrame extends JFrame {
 		              LinkedList<NewsItem> news = dc.obtainNews(ticker);
 		              System.out.println("Success!");
 		              tableModel = (DefaultTableModel) table1.getModel();
+		              tableModel.setRowCount(0);
+		              for(int i = 0;i<news.size();i++)
+		              {
+		            	  NewsItem ni = news.get(i);
+		            	  String[] dataB = new String[3];
+		            	  dataB[0] = ni.Title;
+		            	  dataB[1] = ni.DatePublished;
+		            	  dataB[2] = ni.URL;
+			              tableModel.addRow(dataB);
+		            	  
+		              }
