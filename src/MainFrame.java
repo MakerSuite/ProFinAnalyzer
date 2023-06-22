@@ -186,3 +186,20 @@ public class MainFrame extends JFrame {
 		              tableModel.addRow(dataA);
 		              tableModel.fireTableDataChanged();
 		              String prediction = dc.Classify();
+		              Color c = Color.gray;
+		              String text = "";
+		              if(prediction.equals("Good"))
+		              {
+		            	  text = "Buy";
+		            	  c = Color.GREEN;
+		              }
+		              else{
+		            	  text = "Sell";
+		            	  c = Color.RED;
+		              }
+		              analysis.setText(text);
+		              analysis.setBackground(c);
+		              analysis.setOpaque(true);
+		              LinkedList<NewsItem> news = dc.obtainNews(ticker);
+		              System.out.println("Success!");
+		              tableModel = (DefaultTableModel) table1.getModel();
