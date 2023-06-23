@@ -214,3 +214,21 @@ public class MainFrame extends JFrame {
 			              tableModel.addRow(dataB);
 		            	  
 		              }
+		              
+		              tableModel.fireTableDataChanged();
+		          }
+		         });
+		      	JLabel analText = new JLabel("Machine learning analyst says:");
+		   		analysis = new JLabel("");
+		   		analysis.setBackground(Color.gray);
+		   		analysis.setOpaque(true);
+		   		cp.add(analText);
+		   		cp.add(analysis);
+		   }
+	   
+	   public static void openWebpage(URI uri) {
+		    Desktop desktop = Desktop.isDesktopSupported() ? Desktop.getDesktop() : null;
+		    if (desktop != null && desktop.isSupported(Desktop.Action.BROWSE)) {
+		        try {
+		            desktop.browse(uri);
+		        } catch (Exception e) {
