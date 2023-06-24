@@ -1,2 +1,3 @@
 
-public clas
+public class NewsItem {
+	public S
