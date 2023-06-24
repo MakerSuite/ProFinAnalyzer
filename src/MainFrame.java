@@ -232,3 +232,9 @@ public class MainFrame extends JFrame {
 		        try {
 		            desktop.browse(uri);
 		        } catch (Exception e) {
+		            e.printStackTrace();
+		        }
+		    }
+		}
+	   		
+}
