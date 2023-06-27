@@ -1,3 +1,4 @@
 
 public class NewsItem {
-	public S
+	public String Title;
+	publi
