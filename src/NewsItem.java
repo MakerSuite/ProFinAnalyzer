@@ -2,4 +2,5 @@
 public class NewsItem {
 	public String Title;
 	public String URL;
-	public String DatePu
+	public String DatePublished;
+	p
