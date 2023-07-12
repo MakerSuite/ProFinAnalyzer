@@ -1,1 +1,1 @@
-# ProFinAnaly
+# ProFinAnalyzer\n**Motto:** Making
