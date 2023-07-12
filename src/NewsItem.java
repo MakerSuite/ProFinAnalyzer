@@ -4,3 +4,5 @@ public class NewsItem {
 	public String URL;
 	public String DatePublished;
 	public String Description;
+
+}
