@@ -1,1 +1,1 @@
-# ProFinAnalyzer\n**Motto:** Making investing easy!\n\n**Short
+# ProFinAnalyzer\n**Motto:** Making investing easy!\n\n**Short description
